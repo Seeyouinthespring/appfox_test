@@ -16,8 +16,6 @@ class Routes{
   static final routes = <String, WidgetBuilder>{
     splash: (BuildContext context) => SplashScreen(),
     start: (BuildContext context) => StartScreen(),
-    //result: (BuildContext context) => ResultScreen(),
-    //quiz: (BuildContext context) => QuizScreen()
   };
 
   static MaterialPageRoute onGenerateRoute(RouteSettings settings) {

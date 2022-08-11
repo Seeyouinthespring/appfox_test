@@ -42,7 +42,6 @@ class DropdownSelector extends StatelessWidget{
             dropdownColor: Theme.of(context).primaryColor,
             onTap: () => FocusManager.instance.primaryFocus.unfocus(),
             onChanged: (_) {
-              //setState(() => _value = value);
               onChange(_);
             },
             items: items
